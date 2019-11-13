@@ -132,11 +132,10 @@ main{
 
 footer p{
     color: lightsteelblue;
-    padding: 1rem;
-    margin: 0.5rem;
+    padding: 0.5rem 2rem;
+    /*margin: 0.5rem;*/
     border: 0.1rem solid lightsteelblue;
 }
-
 
 
 @media (max-width: 550px) {
