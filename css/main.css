@@ -7,11 +7,11 @@
 */
 :root{
     --bgColor1:hsl(240,50%,50%); /*primary1*/
-    --fontColor1:hsl(360,80%,50%);/*secondary1*/
+    --fontColor1:hsl(360,50%,50%);/*secondary1*/
     --navBg:hsl(240,10%,90%);/*grey1*/
-    --BgColor2:hsl(240,50%,50%);/*grey2*/
-    --navColor:hsl(240,100%,25%);/*grey3*/
-    --fontColor2: hsl(360,80%,80%);
+    --BgColor2:hsl(240,20%,50%);/*grey2*/
+    --BgColor3:hsl(240,20%,25%);/*grey3*/
+    --fontColor2: hsl(360,30%,80%); /*grey4*/
   }
   
 
@@ -73,8 +73,8 @@ nav a{
     
     background-color: var(--navBg);
     text-decoration: none;
-    color: var(--fontColor2);
-    border-bottom: var(--navColor) solid 0.4rem;
+    color: var(--fontColor1);
+    border-bottom: var(--BgColor3) solid 0.4rem;
     font-size: 1.75rem;
     padding: 0.5rem;
     margin: 2.5rem 1.0rem; 
@@ -84,8 +84,8 @@ nav a{
 }
 
 nav a:hover{
-    color: var(--fontColor1);
-    border-bottom: var(--navColor) solid 0.4rem;
+    color: var(--fontColor2);
+    border-bottom: var(--BgColor2) solid 0.6rem;
 }
 
 main{
@@ -106,7 +106,7 @@ main{
 .product{
     padding: 1rem;
     margin: 0.5rem 1rem;
-    background-color:var(--navColor);
+    background-color:var(--BgColor3);
     border: mediumblue solid 0.2rem;
     display: flex;
     flex-direction: row;
@@ -139,7 +139,7 @@ main{
 }
 
 .featured-product .info{
-    margin: -0.5rem;
+    margin: 0rem;
 }
 
 .info{
