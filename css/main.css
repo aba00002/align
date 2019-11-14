@@ -118,8 +118,8 @@ main{
 
 .featured-product{
     padding: 1rem;
-    background-color: rgb(25, 25, 138);
-    color: white;
+    /*background-color: rgb(25, 25, 138);
+    color: white;*/
     font-size: 1.0rem;
 }
 
